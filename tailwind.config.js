@@ -9,7 +9,15 @@ module.exports = {
       lg:'992px',
       xl:'1440px'
     },
-    extend: {},
+    extend: {
+      fontFamily:{
+        opensens: " 'Open Sans', sans-serif",
+      },
+      // custom colors
+      colors:{
+        primary: '#7843E9'
+      }
+    },
   },
   plugins: [],
 }
