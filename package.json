@@ -1,0 +1,16 @@
+{
+  "name": "mb-p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/tailwind.css -o ./assets/custom.css",
+    "watch": "tailwindcss -i ./assets/tailwind.css -o ./assets/custom.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
