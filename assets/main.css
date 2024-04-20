@@ -1,0 +1,15 @@
+.active-menu {
+    display: block;
+}
+.active-btn .menu-btn {
+    display: none;
+}
+
+.active-btn .menu-close {
+    display: block;
+    position: relative;
+    top: unset;
+}
+.active-btn{
+    display: none;
+}
