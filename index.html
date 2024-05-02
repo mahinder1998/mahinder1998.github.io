@@ -14,7 +14,7 @@
 <body>
 
     <!-- Header -->
-    <header class="bg-slate-50 py-2 overflow-hidden">
+    <header class="bg-slate-50 py-3 overflow-hidden lg:py-0">
         <div class="container mx-auto px-5">
             <div class="flex items-center justify-between  max-w-[1140px] mx-auto">
                 <!-- logo -->
@@ -26,9 +26,12 @@
                     ">M</span>
                 </div>
                 <!-- navbar -->
-                <div>
+                <div class="lg:w-1/2">
                     <!-- mob menu icon -->
-                        <div class="w-10 h-10 relative flex items-center justify-center">
+                        <div class="w-10 h-10 relative flex items-center justify-center
+                            lg:hidden
+                        
+                        ">
                             <div class="menu-btn menu-open">
                                 <img src="assets/svg/menu.svg" alt="menu"
                                 loading="lazy"
@@ -42,9 +45,21 @@
                         </div>
                    
                     
-                    <div class="bg-black nav-menu fixed w-full h-screen transition-all duration-300 top-10 left-0 translate-x-full">
-                    <ul class=" 
-                    space-x-10">
+                    <div class="bg-white nav-menu fixed w-full  transition-all duration-300 top-16 left-0 bottom-0 translate-x-full
+                    flex flex-col justify-between p-5
+
+                    lg:translate-x-0
+                    lg:relative
+                    lg:flex-row
+                    lg:top-0
+                    lg:bg-transparent
+                    lg:space-x-16
+                    lg:p-0
+                    
+                    ">
+                    <ul class=" overflow-y-auto lg:flex
+                    lg:space-x-6
+                    ">
                         <li class="relative group">
                             <a href="#" class="py-4 inline-block  transition-all duration-200 group-hover:text-primary">Home</a>
                             <div class="w-0 h-[2px] bg-primary absolute bottom-0 transition-all duration-200
@@ -160,6 +175,32 @@
             </div>
         </div>
     </header>
+    <!-- hero -->
+    <section class="bg-white w-full h-screen">
+        <div class="container mx-auto">
+            <div class="max-w-[1140px] mx-auto px-5">
+                <div class="py-10 flex flex-col-reverse
+                    lg:flex-row 
+                    lg:items-center
+                ">
+                    <div class="space-y-2 lg:w-1/2">
+                        <p class="text-2xl">Hello,</p>
+                        <h1 class="text-4xl">I'M Mahinder Kumar</h1>
+                        <p class="text-lg">Shopify Frontend Developer</p>
+                        <a class="border border-primary rounded-lg py-2 px-4
+                        bg-primary text-white inline-block cursor-pointer
+                        hover:bg-black hover:border-gray-800
+                        ">
+                            Download cv
+                        </a>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <img src="assets/svg/banner.svg" alt="" class="w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="assets/main.js"></script>
