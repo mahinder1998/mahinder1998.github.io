@@ -1,0 +1,30 @@
+.hide-loader{
+ height: 0;
+}
+.hide-loaderimg{
+    scale: 0;
+}
+.social-media img,
+.mobile-icon img
+{
+    filter: brightness(0) invert(1);
+}
+.show-header{
+    animation: showHeader 1s 1s 1 forwards;
+}
+.active-menu .menu-open {
+    opacity: 0;
+    visibility: hidden;
+}
+.active-menu .menu-close {
+    opacity: 1 !important ;
+    visibility: visible !important;
+}
+@keyframes showHeader{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
