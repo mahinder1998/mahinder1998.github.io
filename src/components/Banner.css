@@ -1,0 +1,162 @@
+
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    height: 212px;
+    width: 212px;
+    animation-name: babbar;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+/* @keyframes babbar{
+    from{
+        width:212px;
+    }
+    to{
+        width: 800px;
+    }
+} */
+
+
+@keyframes babbar{
+    0%{width: 212px;}
+    50%{width: 50%;}
+    100%{width: 100%;}
+}
+ 
+
+
+
+.box-radius{
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 10px;
+   
+}
+.box-radius-inner{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 100%;
+    
+}
+
+@keyframes radius{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+
+
+
+/*  */
+
+.circle-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.circle-box {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #eeeeee;
+    border-radius: 100%;
+    position: relative;
+    
+    animation: circle-curve 66s linear  infinite;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amazone-icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circle-box img {
+    width: 60px;
+}
+
+.apple-icon {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+}
+
+.netflex-icon {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gogogle-icon {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+}
+
+@keyframes circle-curve {
+    from{transform: rotate(-360deg);}
+    to{transform: rotate(360deg);}
+}
+
+
+
+
+.circle-inner-wrap {
+    width: 250px;
+    height: 250px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    position: relative;
+    animation:spin 10s linear infinite reverse;
+
+}
+
+.filpkart-icon {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.lined-icon {
+    position: absolute;
+    right: -20px;
+    top: 50px;
+}
+
+.adobe-icon {
+    position: absolute;
+    bottom: 50px;
+    left: -20px;
+}
+
+.ola-icon {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+
+
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn)
+    }
+}
