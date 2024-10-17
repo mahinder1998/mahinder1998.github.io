@@ -31,16 +31,16 @@ const Header = ()=>{
                     }>
                         <ul className="space-y-3 md:flex md:space-y-0 md:space-x-20">
                             <li>
-                                <a href="#">Home</a>
+                                <a href="home">Home</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="services">Services</a>
                             </li>
                             <li>
-                                <a href="#">Portfolio</a>
+                                <a href="portfolio">Portfolio</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="contact">Contact</a>
                             </li>
                         </ul> 
                     </nav>
