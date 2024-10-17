@@ -1,6 +1,5 @@
 
 
-import banner from '../images/banner.jpg'
 import html5 from '../images/html5.png'
 import css3 from '../images/css3.png'
 import shopify from '../images/shopify.png'
@@ -40,25 +39,28 @@ const Banner = ()=>{
                                 <img src={html5} alt="logo" width="80" />
                             </div>
                             <div className="lined-icon">
-                            <img src={css3} alt="logo" width="80" />
+                                <img src={css3} alt="logo" width="80" />
                             </div>
                             <div className="adobe-icon">
-                            <img src={js} alt="logo" width="80" />
+                                <img src={js} alt="logo" width="80" />
                             </div>
                             <div className="ola-icon">
-                            <img src={shopify} alt="logo" width="80" />
+                                <img src={shopify} alt="logo" width="80" />
                             </div>
                         </div>
 
                         <div className="amazone-icon">
-                        <img src={git} alt="logo" width="80" />
+                            <img src={git} alt="logo" width="80" />
                         </div>
-                        <div className="apple-icon">
-                        <img src={react} alt="logo" width="80" />                        </div>
+                            <div className="apple-icon">
+                        <img src={react} alt="logo" width="80" />
+                        </div>
                         <div className="netflex-icon">
-                        <img src={bootstrap} alt="logo" width="80" />                        </div>
+                            <img src={bootstrap} alt="logo" width="80" />
+                        </div>
                         <div className="gogogle-icon">
-                        <img src={tailwind} alt="logo" width="80" />                        </div>
+                            <img src={tailwind} alt="logo" width="80" />
+                        </div>
                     </div>
                  </div>
 
