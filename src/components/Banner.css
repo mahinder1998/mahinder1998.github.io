@@ -160,3 +160,34 @@
         transform: rotate(1turn)
     }
 }
+
+
+
+@media(max-width:767px){
+    .circle-box {
+        width: 250px;
+        height: 250px;
+    }
+    .circle-inner-wrap {
+        width: 160px;
+        height: 160px;
+    }
+    .circle-box img {
+        width: 40px;
+    }
+    .amazone-icon{
+        top: -20px;
+    }
+    .apple-icon{
+        right: -20px;
+    }
+    .netflex-icon{
+        bottom: -20px;
+    }
+    .gogogle-icon{
+        left: -20px;
+    }
+    .circle-wrap{
+        height: auto;
+    }
+}

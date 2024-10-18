@@ -13,7 +13,7 @@ const Header = ()=>{
 
     return(
         <header className="container mx-auto">
-            <div className="header-main py-5 px-5 md:px-0 flex justify-between items-center">
+            <div className="header-main py-5 px-5  flex justify-between items-center">
                 <div className="logo">
                     <div className="w-10 h-10 border border-black flex justify-center items-center text-2xl font-bold">
                         M.
@@ -27,6 +27,7 @@ const Header = ()=>{
                     <nav className={
                         `main-nav absolute top-20 left-0 w-full h-full
                         bg-white border-t 
+                        z-10
                         p-5 transition-all duration-1000 ease-in-out ${menuOpen ? '': 'hidden'}
                         md:relative md:!block md:p-0 md:top-0 md:translate-x-0 md:border-none 
                       `
