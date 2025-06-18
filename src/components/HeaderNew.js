@@ -48,7 +48,7 @@ const HeaderNew = () => {
             <div className="container  max-w-[968px] mx-auto">
                 <nav className="p-4 flex justify-between md:py-6">
                     {/* logo */}
-                    <h1 className="md:text-lg">Mb</h1>
+                    <span className="md:text-lg">Mb</span>
 
                     {/* navbar */}
                     <div className={`menu absolute w-full left-0 bottom-0 bg-white rounded-t-3xl shadow-[0_-1px_4px_rgba(0,0,0,0.15)] 
