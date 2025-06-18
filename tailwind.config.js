@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+      content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/**/*.html"],
   theme: {
     // responsive breakpoint
     // screens:{
@@ -18,8 +18,7 @@ module.exports = {
       },
       // font family
       fontFamily:{
-        opensens: " 'Open Sans', sans-serif",
-        raleway: "'Raleway', sans-serif"
+        poppins:"'Poppins', sans-serif",
       },
       // height
       height: {

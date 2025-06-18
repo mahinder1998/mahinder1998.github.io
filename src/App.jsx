@@ -1,13 +1,10 @@
 import "./App.css";
-import Banner from "./components/Banner";
-import Header from "./components/Header";
-
+import HeaderNew from "./components/HeaderNew";
 
 function App() {
   return (
    <>
-    <Header/>
-    <Banner/>
+    <HeaderNew/>
    </>
   );
 }
